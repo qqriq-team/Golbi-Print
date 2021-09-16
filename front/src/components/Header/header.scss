@@ -1,0 +1,62 @@
+@import '../../App.scss';
+
+.header-container {
+  color: white;
+  height: 50px;
+  width: 100%;
+  background-color: $black;
+  .header-left {
+    float: left;
+    width: 30%;
+    height: 100%;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      li {
+        list-style: none;
+        height: 100%;
+        padding: 13px 15px; //losa postavka treba ukloniti padding
+      }
+    }
+  }
+  .header-right {
+    float: right;
+    width: 30%;
+    height: 100%;
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      height: 100%;
+      li {
+        font-size: 16px;
+        list-style: none;
+        height: 100%;
+        padding: 15px 15px; //losa postavka treba ukloniti padding
+      }
+    }
+  }
+}
+//Navbar
+
+.navbar-container {
+  .navbar-content {
+    height: 70px;
+    .navbar-items {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      .navbar-item {
+        margin: auto 0;
+        color: $black-fonts;
+        list-style: none;
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          color: $black-fonts;
+        }
+      }
+    }
+  }
+}

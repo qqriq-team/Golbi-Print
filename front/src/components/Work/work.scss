@@ -1,0 +1,52 @@
+@import '../../App.scss';
+/*Aktivne klase*/
+.sidework.active {
+  left: 0 !important;
+  transition: 550ms ease-in;
+}
+.singleWork {
+  display: flex;
+  @include media('<=tablet') {
+    display: block !important;
+  }
+}
+
+.sidework-container {
+  padding: 4% 20%;
+}
+
+.sidework {
+  height: 100%;
+  position: absolute;
+  left: -96.5%;
+  top: 0;
+  background-color: $red;
+  width: 100%;
+  @include media('<=phone') {
+    left: -92.5%;
+  }
+  .sidework-heading {
+    width: 60px;
+    margin: auto;
+    color: white;
+    height: 100%;
+    right: 0px;
+    top: 0;
+    position: absolute;
+    h1 {
+      writing-mode: sideways-lr;
+      text-orientation: mixed;
+      white-space: pre;
+      display: inline-block;
+      right: 18px;
+      top: 45%;
+      position: absolute;
+      cursor: pointer;
+      @include media('<=tablet') {
+        right: 0;
+      }
+    }
+  }
+}
+
+//responzivnost

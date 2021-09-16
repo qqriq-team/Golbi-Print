@@ -1,0 +1,11 @@
+@import '../Header/header.scss';
+
+.hero {
+  height: 90vh;
+}
+.hero-background {
+  background-image: url(../../images/home/Golbi-cover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80%;
+}

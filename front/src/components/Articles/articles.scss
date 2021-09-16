@@ -1,0 +1,22 @@
+@import '../../App.scss';
+
+.article-box {
+  width: 100%;
+  .image img {
+    width: 100%;
+  }
+  .article-content {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    .article-heading {
+      padding: 21px;
+    }
+    .line {
+      margin: 21px auto;
+    }
+    .article-text {
+      padding: 0 21px;
+    }
+  }
+}

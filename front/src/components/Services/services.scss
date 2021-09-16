@@ -1,0 +1,22 @@
+@import '../../App.scss';
+
+.service-box {
+  width: 100%;
+  .image img {
+    width: 100%;
+  }
+  .service-content {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    .service-heading {
+      padding: 21px;
+    }
+    .line {
+      margin: 21px auto;
+    }
+    .service-text {
+      padding: 0 21px;
+    }
+  }
+}
